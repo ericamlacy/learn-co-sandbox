@@ -11,14 +11,11 @@ end
 end
 batch_badge_creator(speakers)
 
-rooms = (1..7).to_a
-
-arr.length.times do
-   puts square_num(arr.shift)
-end
 
 def assign_rooms(speakers)
-  rooms.length.times do |assign|
+  
+  
+  
     puts "Hello, #{speaker}! You'll be assigned to room #{room}!"  
 end
 end
