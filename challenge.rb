@@ -9,4 +9,6 @@ speakers.each do |batch|
   puts badge_maker(batch)
 end
 end
-batch_badge_creator(speakers)
+
+def printer
+  puts batch_badge_creator(speakers)
