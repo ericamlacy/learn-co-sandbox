@@ -11,7 +11,7 @@ end
 end
 batch_badge_creator(speakers)
 
-rooms
+rooms = (1..7).to_a
 def assign_rooms
  puts "Hello, _____! You'll be assigned to room _____!"  
 end
