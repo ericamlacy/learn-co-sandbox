@@ -28,10 +28,10 @@
 # end
 
 # # #also with an Array
-# arr = [1, 2, 3, 4, 5]
-# # arr.length.times do
-# #   puts square_num(arr.shift)
-# # end
+arr = [1, 2, 3, 4, 5]
+# arr.length.times do
+#   puts square_num(arr.shift)
+# end
 
 # #index
 # index = 10
@@ -45,9 +45,9 @@
 # puts "hello"
 # end - - - gives endless loop
 
-arr = [1, 2, 3, 4, 5]
-index = 0 
-while index < 5
-puts arr[index]
-index = index + 1 
-end 
+# arr = [1, 2, 3, 4, 5]
+# index = 0 
+# while index < 5
+# puts arr[index]
+# index = index + 1 
+# end 
