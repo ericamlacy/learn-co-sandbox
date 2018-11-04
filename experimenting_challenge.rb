@@ -11,7 +11,7 @@ end
 end
 batch_badge_creator(speakers)
 
-rooms = [speakers.each_with_index] + 1
+rooms = (speakers.each_with_index) + 1
 
 # def assign_rooms(speakers)
 #   rooms = speakers.each_with_index + 1
