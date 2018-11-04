@@ -11,7 +11,11 @@ end
 end
 
 assign_rooms(speakers)
-
+index = 0
+while index < speakers.length 
+puts square_num(numbers[index])
+room = index + 1
+end
 
 def printer
   puts batch_badge_creator(speakers)
