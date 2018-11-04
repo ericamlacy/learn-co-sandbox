@@ -15,6 +15,7 @@ index = 0
 while index < speakers.length 
 puts square_num(numbers[index])
 room = index + 1
+puts "Hello, #{name}! You'll be assigned to room #{room}!."
 end
 
 def printer
