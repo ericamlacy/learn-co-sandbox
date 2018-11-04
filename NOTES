@@ -1,0 +1,26 @@
+methods store executable code. 1 - def 2 - give method a name 3 - use keyword end to show methods end 4 - input code 
+dry = dont repeat yourself
+minimizes the number of lines you need to write your code
+
+data types so far: strings, numbers, booleans, nil
+
+last data type : array. conceptually this is a list within square brackets.  this way one does not have to print each line of local_variables
+individual pieces of data, prints like a list
+indexing in arrays starts at ZERO. The first element in an array is 0, then 1, 2, etc.
+shovel new data in using <<
+utilize variable.push(thing you're adding)
+can use an existing method and pass it additional data. when using method, defining parameters with parentheses
+
+built in array methods, like push - takes the array and runs it thru a process. pushes data into an existing array - AT THE END.
+ - unshift adds the data to the front of the array
+ - shift takes data away from the front of the array - do not need to call argument with data or parameters
+
+the last line before the end of the method is what is returned
+
+in Ruby, all arguments are required when you invoke a method - not able to define a method to accept an argument and NOT use the argument
+
+The bareword that we use as the argument's name in the method signature becomes a local variable within the method.
+
+default arguments are made by assigning default value with =.  This makes arguments optional.
+
+== checks if two data sets are exactly the same
