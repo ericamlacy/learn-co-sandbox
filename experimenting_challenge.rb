@@ -11,10 +11,10 @@ end
 end
 batch_badge_creator(speakers)
 
-
-# def assign_rooms
-# "Hello, _____! You'll be assigned to room _____!"  
-# end
+rooms
+def assign_rooms
+ puts "Hello, _____! You'll be assigned to room _____!"  
+end
 
 # def printer
   
