@@ -10,6 +10,9 @@ speakers.each do |batch|
 end
 end
 
+assign_rooms(speakers)
+
+
 def printer
   puts batch_badge_creator(speakers)
   puts assign_rooms(speakers)
