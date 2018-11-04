@@ -2,7 +2,7 @@
 #   num * num
 # end
 
-# numbers = [1, 2, 3, 4, 5, 6, 7, 10]
+numbers = [1, 2, 3, 4, 5, 6, 7, 10]
 
 index = 0 
 while index < numbers.length 
