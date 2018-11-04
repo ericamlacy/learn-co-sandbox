@@ -17,7 +17,9 @@ def assign_rooms(speakers)
     puts assign_rooms(room)
   end
 end
-puts "Hello, #{speaker}! You'll be assigned to room #{index}!"  
+
+
+#puts "Hello, #{speaker}! You'll be assigned to room #{index}!"  
 
 
 # def printer
