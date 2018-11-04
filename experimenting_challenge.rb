@@ -11,17 +11,12 @@ end
 end
 batch_badge_creator(speakers)
 
-rooms = speakers.each_with_index
+rooms = (1..7).to_a
 
 def assign_rooms(speakers)
-  rooms = speakers.each_with_index + 1
-  end
+  
 end
 
-hash = Hash.new
-%w(cat dog wombat).each_with_index { |item, index|
-  hash[item] = index
-}
 
 #puts "Hello, #{speaker}! You'll be assigned to room #{index}!"  
 
