@@ -13,7 +13,7 @@ batch_badge_creator(speakers)
 
 
 # def assign_rooms
-  
+# "Hello, _____! You'll be assigned to room _____!"  
 # end
 
 # def printer
