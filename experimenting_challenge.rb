@@ -11,10 +11,10 @@ end
 end
 batch_badge_creator(speakers)
 
-counter = 1
+rooms = (1..7).to_a 
 def assign_rooms(speakers)
-  speakers.each do |speaker|
-  puts "Hello, #{speaker}! You'll be assigned to room #{speaker.each_with_index}!."
+  speakers.each do |rooms|
+  puts "Hello, #{speaker}! You'll be assigned to room #{rooms.shuffle}!."
 end
 end
 assign_rooms(speakers)
