@@ -3,7 +3,7 @@ def batch_badge_creator
   speakers.each do |badges|
     puts badge_maker(badges)
 end
-batch_badge_creator
+batch_badge_creator(speakers)
 
 # def assign_rooms
   
