@@ -13,6 +13,9 @@ batch_badge_creator(speakers)
 
 rooms = (1..7).to_a
 def assign_rooms
+  new_arr = users.map do |name|
+   "Hi, #{name}"
+end
  puts "Hello, _____! You'll be assigned to room _____!"  
 end
 
