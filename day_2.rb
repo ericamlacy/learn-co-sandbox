@@ -6,9 +6,9 @@
 
 #passing in an argument - expect an argument by using parentheses
 #can use a method like a value - pass it to the puts function 
-# def square_num(num)
-#   num * num
-# end
+def square_num(num)
+  num * num
+end
 # puts square_num(9)
 # #can also pass a function to another function
 # puts square_num(square_num(9))
