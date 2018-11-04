@@ -1,6 +1,3 @@
-
-
-
 speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def batch_badge_creator
   speakers.each do |badges|
@@ -8,10 +5,10 @@ def batch_badge_creator
 end
 batch_badge_creator
 
-def assign_rooms
+# def assign_rooms
   
-end
+# end
 
-def printer
+# def printer
   
-end
+# end
