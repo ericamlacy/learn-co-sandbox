@@ -29,9 +29,9 @@
 
 # # #also with an Array
 arr = [1, 2, 3, 4, 5]
-# arr.length.times do
-#   puts square_num(arr.shift)
-# end
+arr.length.times do
+   puts square_num(arr.shift)
+end
 
 # #index
 # index = 10
