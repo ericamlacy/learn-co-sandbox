@@ -8,6 +8,7 @@ def batch_badge_creator(speakers)
 speakers.each do |batch|
   puts badge_maker(batch)
 end
+end
 batch_badge_creator(speakers)
 
 
